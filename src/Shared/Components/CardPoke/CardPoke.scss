@@ -1,0 +1,38 @@
+.box {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 10px;
+
+  &-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.detail {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+
+  &-name {
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+}
+
+.link {
+  &-text {
+    text-decoration: none;
+    color: #fff;
+  }
+  &-text:hover {
+    text-decoration: none;
+    color: #eee;
+  }
+}
+
+.favorite-star {
+  margin-left: 10px;
+}

@@ -1,0 +1,11 @@
+.navbar {
+  padding: 15px;
+  &-link {
+    text-decoration: none;
+    color: #fff;
+  }
+  &-link:hover {
+    text-decoration: none;
+    color: #eee;
+  }
+}
