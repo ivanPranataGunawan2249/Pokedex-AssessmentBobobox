@@ -5,12 +5,16 @@ import GithubIcon from "../../Images/github_icon.png";
 import "./NavbarApp.scss";
 
 function NavbarApp() {
+  const openInNewTab = (url) => {
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
+
   return (
     <>
       <nav className="navbar navbar-dark bg-dark">
         <div className="container-fluid">
           <div className="navbar-brand">
-            <Link className="navbar-link">
+            <Link to={"/home"} className="navbar-link">
               <img
                 src={PokeIcon}
                 alt="Logo"
@@ -22,7 +26,14 @@ function NavbarApp() {
             </Link>
           </div>
           <div className="d-flex">
-            <Link className="navbar-link">
+            <Link
+              className="navbar-link"
+              onClick={() =>
+                openInNewTab(
+                  "https://github.com/ivanPranataGunawan2249/pokedex-assessment-bobobox"
+                )
+              }
+            >
               <img
                 src={GithubIcon}
                 alt="Logo"
