@@ -71,7 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Pokedex-Ivan
 
-Hi my name is Ivan Pranata Gunawan. You can call me Ivan. Now I make a Pokedex for my assignment test in bobobox. Live demo can be accessed at [Pokedex-Ivan]](https://pokedex-assessment-bobobox.vercel.app/).
+Hi my name is Ivan Pranata Gunawan. You can call me Ivan. Now I make a Pokedex for my assignment test in bobobox. Live demo can be accessed at [Pokedex-Ivan](https://pokedex-assessment-bobobox.vercel.app/).
 
 # Table Of Content
 
