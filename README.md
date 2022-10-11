@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +67,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+
+# Pokedex-Ivan
+
+Hi my name is Ivan Pranata Gunawan. You can call me Ivan. Now I make a Pokedex for my assignment test in bobobox. Live demo can be accessed at [Pokedex-Ivan]](https://pokedex-assessment-bobobox.vercel.app/).
+
+# Table Of Content
+
+[What I'm using here?](https://github.com/ivanPranataGunawan2249/pokedex-assessment-bobobox#what-im-using-here)
+
+[What's included here?](https://github.com/ivanPranataGunawan2249/pokedex-assessment-bobobox#-whats-included-here)
+
+[How to use it?](https://github.com/ivanPranataGunawan2249/pokedex-assessment-bobobox#how-to-use-it)
+
+[How to run it locally?](https://github.com/ivanPranataGunawan2249/pokedex-assessment-bobobox#how-to-run-it-locally)
+
+[References](https://github.com/ivanPranataGunawan2249/pokedex-assessment-bobobox#references)
+
+[Additional Notes](https://github.com/yehezkielgunawan/yehez-pokemon#additional-notes)
+
+## What I'm using here?
+
+- [ReactJS](https://reactjs.org/) as the main library code.
+- [Axios](https://axios-http.com/) for HTTP Request.
+- [Poke API](https://pokeapi.co/) for the pokemon data.
+- [Use State Persistent](https://github.com/donavon/use-persisted-state) to save favorite pokemon in local storage.
+- [Vercel](https://vercel.com/) as my current favorite tool to deploy web apps.
