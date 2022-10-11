@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Button, ButtonGroup, Col, Row } from "react-bootstrap";
+import { Button, Col, Row } from "react-bootstrap";
 import { getPokemon } from "../../../../Services/PokeApi/Pokemon";
 import CardPoke from "../../../../Shared/Components/CardPoke/CardPoke";
 import "./ListPokemon.scss";
@@ -13,10 +13,8 @@ function ListPokemon() {
   }, [offset]);
 
   async function getListPokemon(pagination) {
-    console.log(pagination);
     getPokemon(pagination)
       .then((res) => {
-        // console.log(res, "berhasil dapat pokemon");
         setDataPoke(res.data.results);
       })
       .catch((err) => {
@@ -32,8 +30,6 @@ function ListPokemon() {
     // setOffset(offset + 20);
     setOffset(offset + 20);
   }
-
-  // console.log(dataPoke, "berhasil");
 
   return (
     <div className="conteiner-list">

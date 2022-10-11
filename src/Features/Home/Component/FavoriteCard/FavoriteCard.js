@@ -17,8 +17,6 @@ function FavoriteCard() {
     } else {
       setCount(favData.length);
     }
-
-    // console.log(favData.length, "check data");
   }
 
   return (

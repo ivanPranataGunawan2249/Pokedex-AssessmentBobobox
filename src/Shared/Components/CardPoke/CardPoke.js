@@ -4,7 +4,6 @@ import "./CardPoke.scss";
 import star from "../../Images/star_favorite.png";
 
 function CardPoke(props) {
-  // console.log(props, "masuk");
   const imageUrl =
     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/";
 
@@ -16,7 +15,6 @@ function CardPoke(props) {
 
   function getFavorite() {
     const favData = JSON.parse(localStorage.getItem("favorite"));
-    // console.log(favData, "check data");
 
     setFavorite(favData);
   }

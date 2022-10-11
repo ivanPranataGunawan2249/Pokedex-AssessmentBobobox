@@ -14,15 +14,10 @@ function ListFavorite() {
   function getFavorite() {
     const favData = JSON.parse(localStorage.getItem("favorite"));
 
-    // console.log(favData.length, "check data");
-
     setFavorite(favData);
   }
 
-  // console.log(favorite.length, "get favorite");
-
   return (
-    // <div>akjdnwakjndskjns</div>
     <>
       {favorite && favorite?.length > 0 ? (
         <>

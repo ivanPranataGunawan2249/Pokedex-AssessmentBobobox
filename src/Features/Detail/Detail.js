@@ -21,7 +21,7 @@ function Detail() {
     const favData = JSON.parse(localStorage.getItem("favorite"));
 
     if (favData !== null) {
-      favData.map((data) => {
+      favData?.map((data) => {
         if (data.url.split("/")[6] === params.pokemonId) {
           setIsFav(true);
         }
@@ -71,13 +71,10 @@ function Detail() {
     const myArray = favData.filter(function (obj) {
       return obj.url.split("/")[6] !== params.pokemonId;
     });
-    console.log(myArray, "delete data fav");
 
     localStorage.setItem("favorite", JSON.stringify(myArray));
     window.location.reload();
   }
-
-  console.log(detail);
 
   return (
     <div className="detail">
