@@ -81,7 +81,7 @@ Hi my name is Ivan Pranata Gunawan. You can call me Ivan. Now I make a Pokedex f
 
 [References](https://github.com/ivanPranataGunawan2249/pokedex-assessment-bobobox#references)
 
-[Additional Notes](https://github.com/yehezkielgunawan/yehez-pokemon#additional-notes)
+[Additional Notes](https://github.com/ivanPranataGunawan2249/pokedex-assessment-bobobox#additional-notes)
 
 ## What I'm using here?
 
