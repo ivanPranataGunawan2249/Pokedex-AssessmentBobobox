@@ -77,10 +77,6 @@ Hi my name is Ivan Pranata Gunawan. You can call me Ivan. Now I make a Pokedex f
 
 [What I'm using here?](https://github.com/ivanPranataGunawan2249/pokedex-assessment-bobobox#what-im-using-here)
 
-[What's included here?](https://github.com/ivanPranataGunawan2249/pokedex-assessment-bobobox#-whats-included-here)
-
-[How to use it?](https://github.com/ivanPranataGunawan2249/pokedex-assessment-bobobox#how-to-use-it)
-
 [How to run it locally?](https://github.com/ivanPranataGunawan2249/pokedex-assessment-bobobox#how-to-run-it-locally)
 
 [References](https://github.com/ivanPranataGunawan2249/pokedex-assessment-bobobox#references)
@@ -90,7 +86,29 @@ Hi my name is Ivan Pranata Gunawan. You can call me Ivan. Now I make a Pokedex f
 ## What I'm using here?
 
 - [ReactJS](https://reactjs.org/) as the main library code.
-- [Axios](https://axios-http.com/) for HTTP Request.
-- [Poke API](https://pokeapi.co/) for the pokemon data.
-- [Use State Persistent](https://github.com/donavon/use-persisted-state) to save favorite pokemon in local storage.
+- [Axios](https://axios-http.com/) for HTTP Request API.
+- [Poke API](https://pokeapi.co/) to get Pokemon Data.
 - [Vercel](https://vercel.com/) as my current favorite tool to deploy web apps.
+
+## How to run it locally?
+
+- Git clone `https://github.com/ivanPranataGunawan2249/pokedex-assessment-bobobox.git`
+- Don't forget to run `npm install` to install the dependencies.
+- To run the dev server, you can run `npm start` and open `localhost:3000` in your browser.
+
+## References
+
+- [ReactJS official docs](https://reactjs.org/)
+- [React Bootstrap docs site](https://react-bootstrap.github.io/)
+- [icon-icons](https://icon-icons.com/id/) - For the image asset.
+- [Axios](https://axios-http.com/) for HTTP Request API.
+
+## Additional Notes
+
+`src/Features` => I put all pages in here.
+
+`src/Routes` => This is where I put the routing I use.
+
+`src/Services` => This is the place where I get data from API using Axios.
+
+`src/Shared` => This is the place where I put reusable component, image, styles, etc.
